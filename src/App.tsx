@@ -11,19 +11,19 @@ const NO_MESSAGES = [
   "No",
   "Are you sure?",
   "Really sure??",
-  "Think again!",
-  "Last chance!",
-  "Surely not?",
+  "please use your brain",
+  "yo last chance",
+  "ru really sure",
   "You might regret this!",
-  "Give it another thought!",
-  "Are you absolutely sure?",
-  "This could be a mistake!",
-  "Have a heart!",
-  "Don't be so cold!",
-  "Change of heart?",
-  "Wouldn't you reconsider?",
-  "Is that your final answer?",
-  "You're breaking my heart ;(",
+  "give me a TRY please",
+  "pleasee",
+  "pleasee bayy",
+  "pleaseeeeeeeeeeee",
+  "fucker accept la",
+  "WHY",
+  "please baby",
+  "Fuck you punde",
+  "fuck you la chibai punde useless nigga",
 ];
 
 const FloatingHeart: React.FC<{ delay?: number }> = ({ delay = 0 }) => {
@@ -128,7 +128,7 @@ export default function App() {
               Yay!!! 💖
             </h1>
             <p className="text-lg md:text-2xl text-pink-500 font-medium max-w-md mx-auto">
-              I knew you'd say yes! You've made me the happiest person ever!
+              awww whos a good girl, lemme eat you buddy
             </p>
           </div>
 
@@ -170,7 +170,7 @@ export default function App() {
             transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
           >
             <img
-              src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2ZqZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/L8uYJpS7lH4U8/giphy.gif"
+              src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2F6emYzYjJ2end4YWJmazhiMzRxcHY5NXc4OTQ0ZGlrYmdtY3c2NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TxqdI1WbB554I/giphy.gif"
               alt="Cute Bear"
               className="rounded-2xl shadow-xl border-4 border-white w-40 h-40 md:w-48 md:h-48 object-cover mx-auto"
               referrerPolicy="no-referrer"
@@ -220,6 +220,19 @@ export default function App() {
         <Flower2 size={64} className="text-pink-300 -rotate-12" />
         <Flower2 size={48} className="text-pink-300 rotate-12" />
       </div>
+
+      {/* GitHub Link */}
+      <a 
+        href="https://github.com/nimalanrao" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="fixed bottom-4 right-4 z-30 text-pink-400 hover:text-pink-600 transition-colors flex items-center gap-2 bg-white/50 backdrop-blur-sm px-3 py-1.5 rounded-full text-sm font-medium shadow-sm"
+      >
+        <svg height="20" width="20" viewBox="0 0 16 16" fill="currentColor">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+        </svg>
+        @nimalanrao
+      </a>
     </div>
   );
 }
