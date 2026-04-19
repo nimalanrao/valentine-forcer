@@ -204,7 +204,7 @@ export default function App() {
               className="w-full h-full object-cover relative z-10"
               onError={(e) => {
                 // Fallback if image doesn't exist yet
-                (e.target as HTMLImageElement).src = "https://picsum.photos/seed/scary/1920/1080?grayscale&blur=2";
+                (e.target as HTMLImageElement).src = "/src/assests/jumpscare.jpg";
               }}
             />
           </motion.div>
